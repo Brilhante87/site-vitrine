@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+    font-size:14px;
+}
+body{
+    width:960px;
+}
+.logo, h1, .a-menu, section{
+	margin-left: 50px;
+}
+li{
+	list-style-type: none ;
+	border-bottom:1px dashed #cccccc;
+	padding-top:2px ;
+}
+ul{background-color:#aa3322;
+padding-bottom:8px ;
+}
+/*Liens du menu*/
+.a-menu{
+	font-size:12px ;
+	color:#cccccc;
+	text-decoration: none;
+}
+.a-menu:hover{
+    color:#ffffff;
+}
+/*Liens hors menu*/
+a{
+	text-decoration:none;
+	color:#aa3322;
+}
+a:hover{color:#aaaaaa;}
+h1{
+	font-size:20px ;
+	color:#aa3322;
+}
+h2{
+	margin-top:40px ;
+	margin-bottom:10px;
+	font-size: 24px;
+}
+h3{
+	font-size: 18px;
+}
+/*Images page évènements*/
+aside{ padding-bottom:30px; }
+.img-evenem{
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+/*ici le pied de page*/
+footer{
+	text-align:center;
+	color:#721717;
+	background-color:#aaaaaa;
+	margin-top:50px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+/* Stylisation page coups du coeur */
+blockquote{
+	border:1px dashed #aa3322;
+	background-color:#ededed;
+	width:450px;
+	font-size: 16px;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding:15px 20px 15px 15px;
+}
+/*Page infos pratique*/
+.horaires{padding-bottom: 10px;}
+table{border-collapse: collapse;
+	
+	width:650px;
+	border-color:#aa3322;	
+}	
+th{
+	font-size: 14px;
+    padding-top:5px;
+    padding-bottom: 5px;
+      color:black;
+      border-color:#aa3322;		    
+}
+td{
+	font-size: 12px;
+	  color:black;
+	  border-color:#aa3322;	
+	text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+    
+}
+/*Page présentation*/
+ .p-space{
+    padding-bottom:15px;
+    padding-top: 10px;
+  }
