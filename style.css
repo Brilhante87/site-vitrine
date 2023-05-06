@@ -46,7 +46,7 @@ h3{
 	font-size: 18px;
 }
 /*Images page évènements*/
-aside{ padding-bottom:30px; }
+.block-images{ padding-bottom:30px; }
 .img-evenem{
     padding-top: 10px;
     padding-left: 30px;
